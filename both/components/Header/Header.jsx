@@ -1,7 +1,7 @@
 Header = React.createClass({
   render() {
     var navStyle = {
-      backgroundColor: "#3f51b5", 
+      backgroundColor: "#3f51b5",
       paddingLeft: "12px"
     };
     return (
@@ -11,6 +11,7 @@ Header = React.createClass({
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li><a href="/">Home</a></li>
             <li><a href="/register">Register</a></li>
+            <li><a href="/login">Login</a></li>            
           </ul>
         </div>
       </nav>

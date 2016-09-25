@@ -13,7 +13,7 @@ Register = React.createClass({
 			};
 			Accounts.createUser(accountInfo, function(er) {
 				if(er) {
-					console.log(er);
+					// console.log(er);
 					Materialize.toast(er.reason, 4000);
 				} else {
 					//Redirect
